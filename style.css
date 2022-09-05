@@ -7,7 +7,9 @@ html {
   body {
     min-height: 100%;
     min-width: 100%;
-    background: linear-gradient(pink, violet);
+    background-image:
+    url("./assets/monstera.jpg");
+    background-size: cover;
   }
   
   button {
