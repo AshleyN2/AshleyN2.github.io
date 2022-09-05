@@ -2,6 +2,7 @@
 This is a project where I created a simple weekly planner with the implementation of HTML, CSS, JS and applied a db.json.
 It is a single page website with a layout that enables a user to plan their week by listing down tasks and removing them off the list once they are accomplished.
 
+
 ## Structure of my code 
 There is an `index.html` file that has the frontend page details, `style.css` file that has the styling details of the page, `index.js` file that has the backend details and `db.json` that has API and server details.
 
