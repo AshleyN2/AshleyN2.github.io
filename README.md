@@ -11,5 +11,4 @@ There is an `index.html` file that has the frontend page details, `style.css` fi
 3. A user should be able to delete a task from their list once they have accomplished it.
 4. A user can get a weekly focus that is a reminder of high priority tasks for the week.
 
-
-
+![Screenshot from 2022-09-05 23-45-15](https://user-images.githubusercontent.com/53012069/188512835-5bb38ecb-3acc-4d81-8739-153cff88230b.png)
