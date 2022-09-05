@@ -102,11 +102,11 @@ input[type=submit]{
 #list {
     
     border: 1px solid #333;
-    background: rgba(37, 241, 214, 0.582);
+    background: rgba(17, 240, 210, 0.911);
     padding: 15px 20px 18px 18px;
     border-radius: 35px;
     box-shadow: 2px 5px 5px #333;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left:5%;
     width: 30%;
     text-align:justify;
@@ -120,9 +120,9 @@ input[type=submit]{
   h4{
     text-align:right;
     font-size: large;
-    margin-right: 17%;
+    margin-right: 20%;
     color: rgb(8, 5, 1);
-    margin-top: 8%;
+    margin-top: 9%;
     font-weight: 700;
     font-family:'Courier New', Courier, monospace;
     text-decoration:underline overline wavy red;
