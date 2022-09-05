@@ -1,0 +1,14 @@
+{
+    "priorities": [
+      {
+        "id": 1,
+        "day": "Monday",
+        "task": "Go to the bookshop"
+      },
+      {
+        "id": 2,
+        "day": "Tuesday",
+        "task": "Buy pet food"
+      }
+    ]
+}
