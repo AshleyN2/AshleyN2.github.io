@@ -15,19 +15,48 @@ html {
   button {
     font-size: 7px;
   }
+
+#create-task-form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color:rgb(37, 241, 214, 0.582);
   
+}
+
+label{
+  font-weight: 700;
+  font-size: 130%;
+
+
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 8px 8px;
+  margin: 10px ;
+  box-sizing:content-box;
+  font-style: italic;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+
+  
+/*
   #main-content {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
     border: 1px solid #333;
     background: rgba(246, 250, 9, 0.411);
     padding: 15px 20px 18px 18px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
   }
+ */
   
   #list {
     margin: 10px;
