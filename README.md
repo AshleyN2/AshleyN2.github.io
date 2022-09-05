@@ -2,7 +2,7 @@
 This is a project where I created a simple weekly planner with the implementation of HTML, CSS, JS and applied a db.json.
 It is a single page website with a layout that enables a user to plan their week by listing down tasks and removing them off the list once they are accomplished.
 
-# Deployed link
+### Deployed link
 ` http://localhost:3000/priorities `
 
 
