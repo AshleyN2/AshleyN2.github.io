@@ -3,14 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let taskForm = document.querySelector('form')
     taskForm.addEventListener('submit', (e) => { // Enables user to click submit form
       e.preventDefault();
-      buildTaskLister(e.target.new_task.value)
+      buildWeeklyPlanner(e.target.new_task.value)
       taskForm.reset()
     })
   });
+
+  
   
   // Enables user to type a task and it gets displayed
   
-  function buildTaskLister(newTask){
+  function buildWeeklyPlanner(newTask){
     let btn = document.createElement('button')
     btn.textContent = 'X'
     btn.addEventListener('click', handleDelete)
