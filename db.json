@@ -2,13 +2,31 @@
     "priorities": [
       {
         "id": 1,
-        "day": "Monday",
+        "day": "** Monday **",
         "task": "Go to the bookshop"
       },
+
       {
         "id": 2,
-        "day": "Tuesday",
+        "day": "** Tuesday **",
         "task": "Buy pet food"
+      },
+
+      {
+        "id": 3,
+        "day": "** Wednesday **",
+        "task": "Go monthly shopping"
+      },
+
+      {
+        "id": 4,
+        "day": "** Thursday **",
+        "task": "Run city centre errand"
+      },
+      {
+        "id": 5,
+        "day": "** Friday **",
+        "task": "Book air ticket"
       }
     ]
 }
