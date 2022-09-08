@@ -52,8 +52,8 @@ function displayList(prior){
 
   // Enables user to delete a priority once they have accomplished it
   function deletePriority(){
-    const url = `http://localhost:3000/priorities${prior.id}`;
-    const url1 = `http://localhost:3000/priorities${prior.day}`;
+    const url = `${baseApi}/priorities${prior.id}`;
+    const url1 = `${baseApi}/priorities${prior.day}`;
     const requestObj = { method: 'DELETE' }; 
     fetch(url, url1, requestObj)
     .then( ulList.remove(),header.remove() )
