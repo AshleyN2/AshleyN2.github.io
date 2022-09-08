@@ -1,4 +1,4 @@
-const baseApi = " http://localhost:3000";
+const baseApi = "http://localhost:3000";
 
 document.addEventListener("DOMContentLoaded", () => {
   //
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     })
   });
-
+// Retrieve data from our API 
   function fetchData(){
     fetch(`${baseApi}/priorities`)
     .then(response => response.json())
@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   
   // Enables user to type a task and it gets displayed
-  
   function buildWeeklyPlanner(newTask){
     let btn = document.createElement('button');
     btn.textContent = 'X';
@@ -31,13 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   
   // Enables user to delete a task
-  
   function handleDelete(e){
     e.target.parentNode.remove()
   }
 
-
-
+// Displays the Weekly focus 
 function displayList(prior){
   const content = document.querySelector('#priorities');
   const ulList = document.createElement('li');
@@ -53,6 +50,7 @@ function displayList(prior){
   deleteButton.textContent = 'COMPLETED';
   deleteButton.addEventListener('click', () => deletePriority())
 
+  // Enables user to delete a priority once they have accomplished it
   function deletePriority(){
     const url = `http://localhost:3000/priorities${prior.id}`;
     const url1 = `http://localhost:3000/priorities${prior.day}`;
@@ -62,7 +60,5 @@ function displayList(prior){
     
   }
   }
-
-
 
 fetchData()
