@@ -11,8 +11,8 @@ html {
     url("./assets/monstera.jpg");
     background-size: cover;
   }
-  
-  button {
+
+button {
     font-size: 7px;
   }
 
@@ -26,6 +26,7 @@ h1{
   width: 35%;
   font-size:250%;
 }
+
 select{
   position: absolute;
   bottom:110%;
@@ -78,26 +79,9 @@ input[type=submit]{
   border-style:groove;
 }
 
-
-  
-/*
-  #main-content {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    border: 1px solid #333;
-    background: rgba(246, 250, 9, 0.411);
-    padding: 15px 20px 18px 18px;
-    border-radius: 5px;
-    box-shadow: 2px 5px 5px #333;
-  }
- */
- h2{
+h2{
   font-size: large;
  }
-
 
 #list {
     position: static;
@@ -113,13 +97,9 @@ input[type=submit]{
     flex-direction: column;
     font-size: medium;
   
-    
-
-    /*
-    position: absolute;
-    */
   }
-  h4{
+
+h4{
     text-align:right;
     font-size: large;
     margin-right: 35%;
@@ -130,8 +110,7 @@ input[type=submit]{
     text-decoration:underline overline wavy red;
   }
   
-  #priorities-content{
-  
+#priorities-content{
     border: 1px solid #333;
     background: rgba(105, 119, 117, 0.911);
     padding: 15px 20px 18px 18px;
@@ -146,10 +125,11 @@ input[type=submit]{
     min-height: 410px;
   }
 
-  .c-header{
+.c-header{
     font-weight: bolder;
   }
-  .c-list{
+  
+.c-list{
     font-size:x-large;
     font-style: italic;
     color:rgba(17, 240, 210, 0.911);
